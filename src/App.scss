@@ -1,0 +1,48 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .qr-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 90%;
+    background-color: #d5e1ef;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .qr-card-container {
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      .ant-card{
+        width: 280px !important;
+        border-radius: 1rem;
+      }
+      .ant-card-cover {
+        padding: 1rem;
+        padding-bottom: 0;
+        .qr-img {
+          border-radius: 1rem;
+        }
+      }
+      .ant-card-body {
+        .ant-card-meta .ant-card-meta-detail {
+            .ant-card-meta-title {
+              white-space: normal;
+              font-weight: 700;
+            }
+            .ant-card-meta-description {
+              font-size: 15px;
+              font-weight: 400;
+            }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
